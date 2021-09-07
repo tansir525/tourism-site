@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Rancho&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Finger+Paint&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Rancho&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(images/banner1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 25px;
+  text-align: center;
+  color: #fff;
+}
+.header img {
+  width: 170px;
+  float: left;
+}
+.login-btn {
+  width: 100px;
+  padding: 8px 0;
+  outline: none !important;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff;
+  float: right;
+}
+.header h1 {
+  padding-top: 200px;
+  padding-bottom: 0px;
+  font-size: 75px;
+  font-family: "Finger Paint", cursive;
+}
+.header p {
+  letter-spacing: 10px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+.input-group {
+  width: 90%;
+  max-width: 500px;
+  border-radius: 30px;
+  background: #fff;
+  margin: auto;
+  padding: 2px;
+}
+.form-control {
+  border: 0 !important;
+  border-radius: 30px !important;
+  margin: 2px;
+  box-shadow: none !important;
+}
+.input-group-text {
+  width: 100px;
+  background-image: linear-gradient(#00ff7e, #1f3d90);
+  border: 0 !important;
+  color: #fff !important;
+  padding: 0 25px !important;
+  border-radius: 30px !important;
+  box-shadow: none !;
+}
+.input-group-append button {
+  height: 100%;
+}
+
+/* Features */
+
+.features {
+  padding: 100px;
+}
+.feature-font {
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: "Rancho", cursive;
+  font-size: 70px;
+}
+/* 
+.feature-img img {
+  width: 40%;
+}
+.price {
+  width: 50px;
+  height: 50px;
+  background: #ff5722;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+  position: absolute;
+  left: 20px;
+  bottom: -25px;
+}
+.feature-img {
+  position: relative;
+}
+.rating {
+  padding: 3px;
+  float: right;
+  background: #fff;
+  bottom: -1px;
+  right: 0;
+  position: absolute;
+} */
+
+/* .price {
+  width: 50px;
+  height: 50px;
+  background: #ff5722;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+  position: absolute;
+  left: 20px;
+  bottom: -25px;
+  margin-top: 15rem;
+} */
+.price {
+  width: 53px;
+  height: 49px;
+  background: #ff5722;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+  position: absolute;
+  left: 25px;
+  top: 0px;
+  margin-top: 15rem;
+  text-align: center;
+}
+.rating {
+  color: #ff5722;
+  background: #fff;
+  right: 0;
+  position: absolute;
+  top: 0px;
+  margin-top: 16rem;
+}
+h3 {
+  font-family: "Rancho", cursive;
+  font-weight: 900;
+}
+
+.card-text {
+  font-family: "Poppins", sans-serif;
+}
+.fa-map-marker {
+  color: #ff5722;
+  padding-left: 5px;
+  padding-right: 2px;
+}
+.fa-sun {
+  color: #ff5722;
+  padding-left: 5px;
+  padding-right: 4px;
+}
+.fa-moon {
+  color: #ff5722;
+  padding-left: 5px;
+  padding-right: 4px;
+}
+
+.Moment-Name {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Rancho", cursive;
+}
+.Moments {
+  width: 90%;
+  padding: 20px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.box {
+  width: 250px;
+  margin: 0 10px;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+  transition: 1s;
+}
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.box:hover {
+  transform: scale(1.4);
+  z-index: 2;
+  display: block;
+}
+.photo-details {
+  position: absolute;
+  width: 150px;
+  top: 0px;
+  padding: 15px;
+  display: block;
+}
+.photo-details h3 {
+  background: transparent;
+  color: black;
+  text-align: center;
+}
+.travel {
+  background-image: linear-gradient(white, gray);
+}
